@@ -1,5 +1,9 @@
-for i in range(1,100+1):
-    if i%15 == 0:
+for i in range(1,30+1):
+    if j % 15 == 0:
         print('fizzbuzz')
+    elif j % 3 == 0:
+        print('fizz')
+    elif j % 5 == 0:
+        print('buzz')
     else:
-        print(i)
+        print(j)
